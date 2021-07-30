@@ -6,7 +6,7 @@ I made this for integrate complex function which has singular point.
  1. type 'make' command to compile.
  2. type './example.out' to run.
  
-Please see de_int.h file for detail of functions, example.c for detail of function usages.
+Please see de_int.h for detail of functions, example.c for detail of function usages.
 
 ### Reference
-H.Takahasi and M.Mori, "Double exponential formulas for numerical integration", Pub. RIMS Kyoto Univ. 9, 1974, 721-741
+Takahasi, Hidetosi, and Masatake Mori. "Double exponential formulas for numerical integration." Publications of the Research Institute for Mathematical Sciences 9.3 (1974): 721-741.
