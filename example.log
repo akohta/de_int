@@ -1,18 +1,22 @@
+-- Example 1 --
 a = 1.1, b = 1.2
 I    = int_a^b 1/(cos(x)*cos(x)) dx
      = 6.07391964877666e-01 ( = tan(b)-tan(a) )
 I_de = 6.07391964877666e-01, err = 5.12476e-15, function call = 117
 
+-- Example 2 --
 a = 1.1, b = 1.2
 I    = int_a^b exp(i*x) dx
      = 4.08317259057909e-02 +9.12383669489037e-02 i ( = -i*(exp(b*i)-exp(a*i)) )
 I_de = 4.08317259057910e-02 +9.12383669489037e-02 i, err = 8.48554e-16, function call = 117
 
+-- Example 3 --
 a = 0, b -> infinity, s = 4
 I    = int_a^b exp(-s*x) dx ( Laplace transform )
      = 2.50000000000000e-01 ( = 1/s )
 I_dei= 2.50000000000000e-01, err = 1e-15, function call = 121
 
+-- Example 4 --
 a = 0, b -> infinity, s = 4 +2 i
 I    = int_a^b x*exp(-s*x) dx ( Laplace transform )
      = 3.00000000000000e-02 -4.00000000000000e-02 i ( = 1/(s*s) )
