@@ -2,7 +2,7 @@
 This is the numerical integration program using double exponential transformation. 
 This code can calculate the integral from a to b and the integral from a to infinity.
 It also supports the integration of complex functions.
-I made this for integrate complex function which has singular point.
+I made it to integrate a complex function which has a singular point.
 
 <img src="https://latex.codecogs.com/gif.latex?I=\int_a^bf(x)\,dx">  
 <img src="https://latex.codecogs.com/gif.latex?I=\int_a^{\infty}f(x)\,dx">  
