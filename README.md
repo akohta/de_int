@@ -1,6 +1,6 @@
 # de_int
 This is the numerical integration program using double exponential transformation. 
-This code can calculate the integral from a to b and the integral from a to infinity.
+This code can calculate the integral from a to b and the integral from a to infinity shown by the following formulae.
 It also supports the integration of complex functions.
 I made it to integrate a complex function which has a singular point.
 
