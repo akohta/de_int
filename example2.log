@@ -1,0 +1,21 @@
+ ./example2.out 
+
+--- example of straight line integral ---
+1. compute int z^2 dz along the straight line from b to a+b.
+a =  1 +1 i, b =  0.1 -0.1 i.
+I = -4.46666666666667e-01 +8.46666666666666e-01 i, err = 1.47601e-14, function calls = 235
+  = -4.46666666666667e-01 +8.46666666666667e-01 i (analytical solution)
+2. compute int conjugate(z) dz along the straight line from b to a+b.
+a =  1 +1 i, b =  0.1 -0.1 i.
+I =  1.00000000000000e+00 +2.00000000000000e-01 i, err = 8.76076e-15, function calls = 117
+  =  1.00000000000000e+00 +2.00000000000000e-01 i (analytical solution)
+
+--- example of contour integral ---
+1. compute oint sin(z)/(z^3 * (z-2)) dz along the circle |z-2| = 1.
+a =  2 +0 i, r =  1.
+I =  0.00000000000000e+00 +7.14160529010916e-01 i, err = 1.84148e-14, function calls = 239
+  =  0.00000000000000e+00 +7.14160529010916e-01 i (analytical solution)
+2. compute oint sin(z)/(z^3 * (z-2)) dz along the circle |z| = 1.
+a =  0 +0 i, r =  1.
+I =  0.00000000000000e+00 -1.57079632679490e+00 i, err = 3.0747e-13, function calls = 919
+  = -0.00000000000000e+00 -1.57079632679490e+00 i (analytical solution)
